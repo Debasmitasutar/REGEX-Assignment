@@ -24,7 +24,7 @@ public class RegularExpression {
   // }
     //Password rules.
   public static boolean Rule1(String Rule1) {
-      return Rule1.matches("[A-Z]+[A-za-z0-9]{7}");
+      return Rule1.matches("[A-Z]+[0-9]+[A-za-z0-9]*");
 
 
 
