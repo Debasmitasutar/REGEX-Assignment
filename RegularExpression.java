@@ -5,7 +5,7 @@ public class RegularExpression {
        // System.out.println(firstName("Debasmita"));
         //System.out.println(lastName("Sutar"));
         //System.out.println(mail("abc.xyz@bl.co.in"));
-        System.out.println(Rule1("Deba1234"));
+        System.out.println(Password("Deba@1234"));
     }
 
 
@@ -23,8 +23,8 @@ public class RegularExpression {
 
   // }
     //Password rules.
-  public static boolean Rule1(String Rule1) {
-      return Rule1.matches("[A-Z]+[0-9]+[A-za-z0-9]*");
+  public static boolean Password(String psword) {
+      return psword.matches("[A-Z]+[A-za-z0-9]*[@#%&_]+[0-9]+[A-za-z0-9]*");
 
 
 
